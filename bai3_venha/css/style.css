@@ -1,0 +1,65 @@
+ul {
+    background-color: #333;
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+li {
+    float:left;   
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: #ffffff;
+}
+
+li a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.khoahoc:hover .danhsach{
+    display: grid;
+}
+.laptrinh:hover .danhsacha{
+    display: grid;
+}
+.danhsach a{
+    text-align: left;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+}
+
+.danhsach{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    background-color: #9b9999;
+   
+}
+.danhsacha{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    min-width: 348px;
+    left: 300px;
+    top: 94px;
+    background-color: #9b9999;
+    
+}
+
+    
+.khoahoc:hover .an{
+    color: yellow;
+    background-color: red;
+}
+.danhsach a:hover{
+    color: yellow;
+    background-color: red;
+}

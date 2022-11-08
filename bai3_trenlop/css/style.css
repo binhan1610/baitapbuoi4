@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+    color: white;
+    background-color: chartreuse;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+
+}
+main{
+    
+    display: flex;
+    justify-content:space-between;
+    margin: 1px;
+}
+footer{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    background-color: chartreuse;
+    padding: 20px;
+    
+}
+.item{
+    text-align: center;
+    color: white;
+    background-color: chartreuse;
+    padding: 20px 0px;
+    width: 30%;
+    
+    
+}
